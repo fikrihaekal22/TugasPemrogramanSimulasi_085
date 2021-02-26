@@ -1,8 +1,8 @@
 def populatedata(independent, dependent, dataset):
 
     """
-    Populates two lists with one of three sets of bivariate data
-    suitable for testing and demonstrating Pearson's Correlation
+    Mengisi dua daftar dengan salah satu dari tiga set data bivariat
+    cocok untuk menguji dan mendemonstrasikan Korelasi Pearson
     """
 
     del independent[:]

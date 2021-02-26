@@ -3,17 +3,11 @@ import pearsoncorrelation
 
 
 def main():
-
-    """
-    Iterates the three available sets of data
-    and calls function to calculate rho.
-    Then prints the data and Pearson Correlation Coefficient.
-    """
-
     print("-------------------------")
-    print("| codedrome.com         |")
-    print("| Pearson's Correlation |")
-    print("-------------------------\n")
+    print("Fikri Haekal")
+    print("152018085")
+    print("tugas 1 pemograman simulasi ")
+    print("-------------------------")
 
     independent = []
     dependent = []

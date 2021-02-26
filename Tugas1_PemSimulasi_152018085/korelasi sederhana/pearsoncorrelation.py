@@ -4,8 +4,8 @@ import math
 def pearson_correlation(independent, dependent):
 
     """
-    Implements Pearson's Correlation, using several utility functions to
-    calculate intermediate values before calculating and returning rho.
+   Menerapkan Korelasi Pearson, menggunakan beberapa fungsi utilitas untuk
+     hitung nilai antara sebelum menghitung dan mengembalikan rho
     """
 
     # covariance
@@ -29,7 +29,7 @@ def pearson_correlation(independent, dependent):
 def  _arithmetic_mean(data):
 
     """
-    Total / count: the everyday meaning of "average"
+   Total / hitung: arti sehari-hari dari "rata-rata"
     """
 
     total = 0
@@ -43,7 +43,7 @@ def  _arithmetic_mean(data):
 def  _mean_of_products(data1, data2):
 
     """
-    The mean of the products of the corresponding values of bivariate data
+   Rata-rata produk dari nilai yang sesuai dari data bivariat
     """
 
     total = 0
@@ -57,8 +57,8 @@ def  _mean_of_products(data1, data2):
 def  _standard_deviation(data):
 
     """
-    A measure of how individual values typically differ from the mean_of_data.
-    The square root of the variance.
+   Ukuran tentang bagaimana nilai individu biasanya berbeda dari mean_of_data.
+     Akar kuadrat dari varians
     """
 
     squares = []
