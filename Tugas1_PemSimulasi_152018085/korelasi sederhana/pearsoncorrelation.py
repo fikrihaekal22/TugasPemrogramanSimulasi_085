@@ -63,7 +63,7 @@ def inputdata():
     global n
     print('Inputkan nilai x')
     while True:
-        entry = input('num : ')
+        entry = input('number : ')
         if entry == '':
             break
         try:
