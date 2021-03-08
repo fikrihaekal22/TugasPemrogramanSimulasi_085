@@ -51,8 +51,8 @@
 				  <div class="table table-responsive">
 					<table class="table table-hover custom-table-header">
 						  <tr>
-							  <th>Hari</th>
-							  <th>Bilangan Acak</th>
+							  <th>Minggu</th>
+							  <th>Angka Acak</th>
 							  <th>Permintaan</th>
 						  </tr>
 						<?php for($i=0; $i<$jmlRandom; $i++): ?>

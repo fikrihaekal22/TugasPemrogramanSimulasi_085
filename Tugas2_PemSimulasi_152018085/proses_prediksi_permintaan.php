@@ -89,8 +89,8 @@
 						<table class="table table-hover custom-table-header">
 						  <tr>
 							  <th>Permintaan</th>
-							  <th>Kemungkinan Terjadi</th>
-							  <th>Kemungkinan Kumulatif</th>
+							  <th>Probabilitas</th>
+							  <th>Probabilitas Kumulatif</th>
 							  <th>Interval Bilangan Acak</th>
 						  </tr>
 					<?php for($i=0; $i<count($freq); $i++): ?>
@@ -98,12 +98,16 @@
 							  <td> <?php echo $demand[$i]; ?> </td>
 							  <td> <?php echo $probability[$i]; ?> </td>
 							  <td> <?php echo $cumulative[$i]; ?> </td>
-							  <td>
-								<?php
-									echo $botInterval[$i]." - ";
-									echo $topInterval[$i]."<br>";
-								?>
-							  </td>
+                              <td>
+                                  <?php
+                                  echo $botInterval[$i];
+                                  ?>
+                              </td>
+                              <td>
+                                  <?php
+                                  echo $topInterval[$i];
+                                  ?>
+                              </td>
 						  </tr>
 					<?php endfor; ?>
 						</table>
